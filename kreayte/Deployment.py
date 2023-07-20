@@ -49,6 +49,6 @@ spec:
       terminationGracePeriodSeconds: {{TERMINATION_GRACE_PERIOD}} # TODO: optional
 """
 
-def kreayte(data):
+def deployment(data):
   j2_template = Template(template)
   print(j2_template.render(data))

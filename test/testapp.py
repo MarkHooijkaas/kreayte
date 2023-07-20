@@ -9,4 +9,4 @@ data={
     "APP": "testapp"
 }
 
-kreayte.Deployment(data)
+kreayte.deployment(data)
