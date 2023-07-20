@@ -3,10 +3,10 @@ import sys
 import os
 sys.path.insert(0, os.path.abspath('.'))
 
-import kreayte #.Deployment
+import kreayte
+import yaml
 
-data={
-    "APP": "testapp"
-}
+with open('test/app-def.yaml', 'r') as file:
+    data = yaml.safe_load(file)
 
 kreayte.deployment(data)

@@ -1,0 +1,14 @@
+# This file is automatically included by init.inc and should only contain the following vars:
+# TEAM, APP, ENV, KREATE_VERSION, SHARED_VERSION and APP_VERSION
+# other variables should be put in vars-<app>-<env>.inc
+
+# The name of the application
+TEAM: myteam
+APP: testapp
+ENV: dev
+
+# The version of the kreate scripts, the shared configuration and the docker image to be used
+KREATE_VERSION: master
+SHARED_VERSION: master
+APP_VERSION: latest-master
+# Note: These versions should be a git tag, e.g v2.0, but can be a branch name during development of kreate itself
